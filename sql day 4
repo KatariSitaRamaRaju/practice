@@ -2,7 +2,7 @@
 from publishers
 where pub_id IN
 (select pub_id
-from titles
+
 where title_id in
 (select title_id
 from titleauthor

@@ -1,3 +1,5 @@
+ sql day1
+ 
  select pub_name
 from publishers
 where pub_id IN
